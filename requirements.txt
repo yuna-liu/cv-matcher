@@ -1,0 +1,42 @@
+# Core app requirements
+streamlit
+neo4j
+streamlit-timeline
+
+# Data handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Optional: For interaction with databases or APIs
+requests
+
+# Optional: If you use network graphs or Neo4j visualization
+networkx
+pyvis
+
+# Optional: For local development with .env files
+python-dotenv==1.0.1
+
+# environment management
+virtualenv
+
+transformers
+langchain==0.1.16
+langchain-community
+sentence-transformers
+huggingface-hub>=0.19.3
+chromadb==0.4.13  # ✅ downgrade to avoid sqlite3 issue
+
+PyPDF2==3.0.1
+pypdf
+
+
+pysqlite3-binary 
+
+# OpenAI
+openai
